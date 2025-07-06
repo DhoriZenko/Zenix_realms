@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Zenix RP",
+    "description": "Zenix RP",
+    "uuid": "0845c5fb-df6d-4927-a543-52823f127795",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 93]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "f2cd9dd6-3fc0-4777-a5e4-6d47ddab0f62",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": [ "DhoriZenko" ],
+    "generated_with": {
+      "blockception-minecraft-bedrock": [
+        "8.0.40"
+      ]
+    }
+  },
+  "dependencies": [
+    {
+      "uuid": "6a736720-519a-42c8-bef9-f10af47ddd8b",
+      "version": "1.0.0"
+    }
+  ]
+}

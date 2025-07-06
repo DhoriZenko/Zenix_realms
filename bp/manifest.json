@@ -1,0 +1,43 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "zenix",
+    "description": "A mod pack made to support zenix realms",
+    "uuid": "6a736720-519a-42c8-bef9-f10af47ddd8b",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 93]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "6a4a5819-3aa4-4ac4-a291-139322a93bdf",
+      "version": [1, 0, 0]
+    },
+      {
+			"description": "Gametest Module",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "89db2099-6e19-4ffc-8829-72e72ae49560",
+			"version": [1, 0, 0]
+		}
+  ],
+  "metadata": {
+    "authors": [ "Dhorizenko" ],
+    "generated_with": {
+      "blockception-minecraft-bedrock": [
+        "8.0.40"
+      ]
+    }
+  },
+  "dependencies": [
+    {"module_name": "@minecraft/server-ui",
+     "version": "2.1.0-beta"
+      },
+    {"module_name": "@minecraft/server",
+    "version": "2.1.0-beta"},
+    {"uuid": "0845c5fb-df6d-4927-a543-52823f127795",
+    "version":"1.0.0"
+    }
+  ]
+}
